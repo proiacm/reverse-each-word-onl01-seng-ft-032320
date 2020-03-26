@@ -1,7 +1,7 @@
-def reverse_each_word(sentence)
-  sentence.split(",") #convert string to array
+def reverse_each_word(sentence1)
+  sentence1.split(",") #convert string to array
 new_arr = []
-  sentence.each do |words| #iterate through elements
+  sentence1.each do |words| #iterate through elements
     words.reverse
   end
   
